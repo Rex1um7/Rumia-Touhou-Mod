@@ -1,7 +1,11 @@
 [	
 	{
 		"name": "Man-Eating Youkai",
-		"uniques": ["Heals [20] damage if it kills a unit", "Heal this unit by [18] HP <upon being promoted>", "Can only heal by pillaging"]
+		"uniques": [
+			"Heals [20] damage if it kills a unit", 
+			"[This Unit] heals [18] HP <upon being promoted>", 
+			"Can only heal by pillaging"
+		]
 	},
 	{
 		"name": "Instinct Restraint",
@@ -46,7 +50,7 @@
 	{
 		"name": "Careful",
 		"prerequisites": ["Precise Strike"],
-		"uniques": ["May withdraw before melee ([50]%)", "Can move after attacking"],
+		"uniques": ["May withdraw before melee <with [50]% chance>", "Can move after attacking"],
 		"unitTypes": ["Dark Youkai"],
 	},
 	{
@@ -86,7 +90,11 @@
 	{
 		"name": "Demarcation",
 		"prerequisites": ["Spell Cards I"],
-		"uniques": ["[+10]% Strength", "[+20]% Strength <after [10] turns>", "[+30]% Strength <after [20] turns>"]
+		"uniques": [
+			"[+10]% Strength", 
+			"[+20]% Strength <after turn number [10]>", 
+			"[+30]% Strength <after turn number [20]>"
+		]
 		"unitTypes": ["Dark Youkai"],
 	},
 	{
